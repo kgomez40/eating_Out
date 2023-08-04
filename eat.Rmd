@@ -58,6 +58,12 @@ The numerical summary above shows the actual values of the percentages of people
 
 ### Inferential Results
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+```
+
+Based on the chi-squared test above, the p-value determined is a small number which means that there is a difference between the frequency of eating out of the three racial groups. Therefore, we can reject the null hypothesis. To determine specifically which groups are different, another type of test will be conducted.
 
 ### Fisher Results
 
