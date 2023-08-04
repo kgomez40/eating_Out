@@ -1,6 +1,6 @@
 ---
 title: "Eating Out"
-author: "your name here"
+author: "Karen Gomez"
 output: 
   html_document:
     number_sections: true
@@ -29,7 +29,7 @@ require(knitr)
 require(foreign)
 ```
 ```{r, eval=FALSE}
-GSS <-read.dta(file="GSSxxxx.dta")
+GSS <-read.dta(file="GSS1998.dta")
 GSS <- droplevels(GSS)
 mydata <- select(GSS,race,age,eatout)
 mydata <- na.omit(mydata)
