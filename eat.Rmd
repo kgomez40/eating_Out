@@ -67,7 +67,11 @@ Based on the chi-squared test above, the p-value determined is a small number wh
 
 ### Fisher Results
 
+```{r}
+fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
+```
 
+Fisher's exact test is conducted to supplement the results of the Chi-squared test from before. Based on this test, which compared two groups at a time, we can see that there is a difference in-terms of frequency of eating out between white and black people as shown by the low p-value of about 1.183e-05,. Likewise, the frequency of eating out between white people and others is also different based on the low p-value of 0.0072. However, this test also shows that there is no difference between the frequency of eating out of black people or others given that the p-value is 0.599.
 
 ### Discussion and Conclusion
 
