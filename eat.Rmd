@@ -75,6 +75,4 @@ Fisher's exact test is conducted to supplement the results of the Chi-squared te
 
 ### Discussion and Conclusion
 
-
-
-
+The question being answered in this activity is whether there is a difference in the frequency of eating out of various racial groups. The only place where we have evidence in the difference in the frequency between eating out is between the black and white race. There is also no evidence in the frequency of eating out between whites and others.
